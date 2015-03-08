@@ -1,0 +1,36 @@
+{
+    "name": "uran1980/yii2-chosen-select",
+    "description": "An Yii2 chosen select extension based on Chosen jQuery plugin.",
+    "version": "0.0.1",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2-chosen-select",
+        "yii2",
+        "Chosen",
+        "javascript",
+        "jQuery plugin"
+    ],
+    "homepage": "https://github.com/uran1980/yii2-chosen-select",
+    "time": "2015-03-07",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Yakovlev",
+            "email": "uran1980@gmail.com",
+            "homepage": "https://github.com/uran1980",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/uran1980/yii2-chosen-select/issues",
+        "source": "https://github.com/uran1980/yii2-chosen-select"
+    },
+    "require": {
+        "yiisoft/yii2": "~2"
+    },
+    "autoload": {
+        "psr-4": {
+            "uran1980\\yii\\widgets\\chosen\\": ""
+        }
+    }
+}
