@@ -8,7 +8,7 @@ namespace uran1980\yii\widgets\chosen;
  */
 class ChosenSelectAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@uran1980/yii/widgets/igrowl/assets';
+    public $sourcePath = '@uran1980/yii/widgets/chosen/assets';
     public $css = [
         'chosen_v1.4.0/chosen.min.css',
     ];
