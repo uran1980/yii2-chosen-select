@@ -37,6 +37,22 @@ To activate this widget add this line to you view or layout:
 <?php echo uran1980\yii\widgets\chosen\ChosenSelect::widget(); ?>
 ```
 
+or add as dependensy in you AssetBundle.php:
+
+```php
+
+namespace frontend\assets;
+
+class YourAppAsset extends \yii\web\AssetBundle
+{
+    ...
+    public $depends = [
+        'uran1980\yii\widgets\chosen\ChosenSelectAsset',
+        ...
+    ];
+}
+```
+
 
 ## Author
 
